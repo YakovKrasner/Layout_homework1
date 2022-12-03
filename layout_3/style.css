@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+header {
+    margin: 14px 315px 21px 316px;
+    padding: 26px 200px 48px 533 px;
+}
+.LogoText {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+main {
+    margin: 0px 330px 53px 316px;
+}
+.Header2 {
+    font-size: 60px;
+    line-height:
+    70px;color: #000000;
+}
+.Description {
+    font-size: 20px;
+line-height: 23px;
+
+color: #888888;
+}
+.StartButton {
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
+.VideoButton {
+    width: 90px;
+    height: 19px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+footer {
+    margin: 0px 348px 47px 332px;
+}
+
+.Navigation {
+    }
+.Navigation__link {
+    font-size: 14px;
+    line-height: 16px;
+    color: #F25822;
+}
+img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.HeadLogo{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
