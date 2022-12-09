@@ -15,11 +15,44 @@ body {
 header {
     margin: 14px 315px 21px 316px;
     padding: 26px 200px 48px 533 px;
+    
 }
-.LogoText {
-    font-size: 24px;
-    line-height: 28px;
+.Header1 {
+    display: grid;
+    grid-template-columns: 40px 20% 40% auto;
+}
+.HeadLogo{
+    /* font-size: 24px;
+    line-height: 28px; */
+    display: flex;
     color: #000000;
+    grid-column-start: 1;
+    align-items: center;
+    justify-content: center;
+        }
+.LogoText {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    grid-column-start: 2;
+    }
+.LogoGrow {
+color: #000;
+}
+.LogoBe {
+color: #F25822;
+}
+
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column-start: 3;
+    }
+.Navigation__link {
+    font-size: 14px;
+    line-height: 16px;
+    color: #F25822;
 }
 main {
     margin: 0px 330px 53px 316px;
@@ -53,20 +86,9 @@ footer {
     margin: 0px 348px 47px 332px;
 }
 
-.Navigation {
-    }
-.Navigation__link {
-    font-size: 14px;
-    line-height: 16px;
-    color: #F25822;
-}
 img{
     display: block;
     max-width: 100%;
     max-height: 100%;
 }
-.HeadLogo{
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-}
+
